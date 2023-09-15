@@ -1,6 +1,14 @@
 package org.example;
 
+/**
+ * Класс создания бинарного дерева и наполнения его данными
+ */
 public class Data {
+
+    /**
+     * Метод создания бинарного дерева и наполнения его данными.
+     * Возвращает объект типа BinaryTree
+     */
     public BinaryTree generateTree(){
         BinaryTree bt = new BinaryTree();
         bt.add(11);

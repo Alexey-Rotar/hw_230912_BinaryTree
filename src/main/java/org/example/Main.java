@@ -1,6 +1,13 @@
 package org.example;
 
+/**
+ * Класс запуска программы
+ */
 public class Main {
+
+    /**
+     * Метод запуска программы. Создание экземляров классов, вызова методов. Демонстрация работы программы.
+     */
     public static void main(String[] args) {
         Data data = new Data();
         BinaryTree bt = data.generateTree();
